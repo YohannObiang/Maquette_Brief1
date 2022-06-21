@@ -244,6 +244,14 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
 }
+.facilitiesbtn button:hover{
+    background: black;
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
 .facilitiesItems{
     display: flex;
     justify-content: space-between;
