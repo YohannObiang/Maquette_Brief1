@@ -250,6 +250,7 @@ header{
     border: none;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
+    cursor: pointer;
     font-size: 1.1rem;
 }
 .facilitiesItems{
@@ -616,6 +617,21 @@ footer{
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
+}
+.rectangle3 input{
+    width: 95%;
+    height: 95%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.rectangle3 input::placeholder{
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 .mt-2{
     margin-top: 2rem;
