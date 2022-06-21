@@ -33,6 +33,9 @@ header a{
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
 }
+.pointer{
+    cursor: pointer;
+}
 .blackbtn{
     width: 110px;
     height: 50px;
@@ -45,16 +48,13 @@ header a{
 
 }
 .blackbtn:hover{
-    width: 109px;
-    height: 49px;
-    border: 1px solid black;
+    width: 110px;
+    height: 50px;
+    border: 2px solid black;
     background: transparent;
-    border: 2px solid
+    border: 2px solid;
     color: black;
-    border: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 15px;
+    cursor: pointer;
 
 }
 header{
