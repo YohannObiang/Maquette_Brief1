@@ -165,6 +165,25 @@ header{
     justify-content: center;
     align-items: center;
 }
+.poolbottom{
+    display: flex;
+}
+.search{
+    padding: 0 5%;
+    background: black;
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.search:hover{
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.897);
+    color: black;
+    cursor: pointer;
+
+}
 .section2{
     background: #FBF7F4;
     height: 150vh;
@@ -802,9 +821,9 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 10px 0px 0 0px;
+        margin: auto;
         height: fit-content;
-        width: 100vvw;
+        width: 80vw;
     }
     .section1{
         position: relative;
@@ -859,7 +878,7 @@ footer{
         display: flex;
         flex-direction: column;
         margin-top: 4px;
-        margin-left: 8px;
+        margin-left: 4px;
         font-family: 'Poppins', sans-serif;
         position: relative;
         
@@ -873,56 +892,71 @@ footer{
     
     .check-in label{
         display: flex;
-        width: 160px;
+        width: 155px;
         height: 40px;
         justify-content: space-between;
+        margin-left: 10px;
     }
     
     .check-in label img{
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
     .datecontent input{
         border: 1px solid white;
         cursor: default; 
         outline: none; 
-        width: 120px; 
+        width: 90%; 
     
     }
+    
+    label {
+        font-size: 100%;
+    }
     .check-in{
-        width: 210px;
+        width: 33%;
         height: 110px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    .search{
+
+    }
     .section2{
         background: #FBF7F4;
-        height: 150vh;
+        height: 600px;
         width: 100vw;
-        margin-top: 30vh;
+        margin-top: 4rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .mainSecDiv{
         display: flex;
-        justify-content: space-between;
-        width: 95%;
+        justify-content: flex-start;
+        width: 95vw;
+        height: 100%;
+        padding: 4rem 0;
+
     }
     .mainSecDivLeft{
-        height: 797px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 48%;
+        margin-right: 3rem;
+        
     }
     .mainSecDiv .mainSecDivLeft .rooom{
-        height: 370px;
+        height: 40%;
         width: 100%;
-        position: relative;
+        position: none;
+        margin-top: 2rem;
     }
     .rooom img{
-        width: 100%;
+        height: 100%;
     }
     .discount{
         position: absolute;
@@ -946,18 +980,30 @@ footer{
         font-size: 3rem;
     }
     .mainSecDivRight{
-        height: 800px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 45%;
     }
     .facilities{
-        width: 100%;
-        height: 310px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    
+        height: fit-content;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .bigsizeroom{
+
+        height: 45%;
+        width: 100%;
+        position: none;       
+        margin-top: 2rem;
+    }
+    .bigsizeroom img{
+       
+        height: 80%;
     }
     .facilitiesContent h2{
         font-size: 3.9rem;
@@ -968,27 +1014,27 @@ footer{
         line-height: 2rem;
     }
     .facilitiesContent5 h2{
-        font-size: 3.9rem;
-        margin-bottom: 1rem;  
+        font-size: 100%;
+        margin-bottom: 0rem;  
     }
     .facilitiesContent5 p{
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
+        font-size: 100%;
         line-height: 1rem;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
     }
     .itemandbtn{
-        width: 99%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
     .facilitiesbtn button{
         height: 60px;
-        width: 130px;
+        width: 100%;
         background-color: transparent;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.1em;
+        font-size: 100%;
     }
     .facilitiesbtn button:hover{
         background: black;
@@ -1002,7 +1048,7 @@ footer{
     .facilitiesItems{
         display: flex;
         justify-content: space-between;
-        width: 70%;
+        width: 50%;
     }
     .tvled{
         display: flex;
@@ -1016,8 +1062,8 @@ footer{
     
     }
     .circle{
-        height: 75px;
-        width: 75px;
+        height: 50px;
+        width: 50px;
         border-radius: 50%;
         border: 3px solid #E79434;
         display: flex;
@@ -1028,13 +1074,14 @@ footer{
         transform: rotate(45deg);
     }
     .circle img{
-        height: 37px;
-        width: 37px;
+        height: 30px;
+        width: 30px;
     }
     .tvled{
-        font-size: 1.2rem;
+        font-size: 100%;
     }
     .facilitiesbtn{
+        width: 25%;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -1048,17 +1095,17 @@ footer{
     }
     
     .rectangle{
-        height: 140px;
+        height: 70px;
         width: 24%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.3rem;
+        font-size: 90%;
     
     }
     .rectangle img{
-        height: 53px;
-        width: 53px;
-        margin-bottom: 1rem;
+        height: 40px;
+        width: 40px;
+        margin-bottom: 0rem;
     }
     .o-restaurant{
         background: #000;
@@ -1079,11 +1126,13 @@ footer{
         justify-content: space-between;
     }
     .restaurant img{
-        width: 70%;
-        margin-bottom: 2rem;
+        width: 0%;
+        
+        margin-bottom: 0rem;
     }
     .specificities{
         width: 43%;
+        height: 100%;
     }
     .poppinstitle{
         font-family: 'Poppins', sans-serif;
@@ -1504,7 +1553,7 @@ footer{
         width: 100%;
         position: relative;
         margin-top: 0;
-        height: 460px;
+        height: 520px;
         padding-bottom: 25px;
     }
     .relaxbox{
@@ -1553,7 +1602,7 @@ footer{
         display: flex;
         flex-direction: column;
         margin: auto;
-        position: absolute;
+        position: relative;
         bottom:0px;
     }
     .datecontent{
@@ -1606,6 +1655,35 @@ footer{
     }
     .borderbottom{
         border-bottom: 1px solid rgb(238, 238, 238);
+    }
+    .poolbottom{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        justify-content: center;
+        margin: 0 auto;
+        
+
+    }
+    .search{
+        padding: 0 5%;
+        background: black;
+        color: white;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        margin: 1rem 0 0 0;
+        width: 100%;
+        height: 50px;
+
+    }
+    .search:hover{
+        border: 2px solid black;
+        background: rgba(255, 255, 255, 0.897);
+        color: black;
+        cursor: pointer;
+    
     }
     .section2{
         background: #FBF7F4;
