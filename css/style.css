@@ -209,6 +209,12 @@ header{
     width: 563px;
     position: relative;
 }
+#hiddenicon{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .discount{
     position: absolute;
     height: 190px;
@@ -331,13 +337,16 @@ header{
     margin-top: 20vh ;
     margin-bottom: 40vh;
 }
-
+.hiddenreverse{
+    display: none;
+}
 .rectangle{
     height: 140px;
-    width: 24%;
+    width: 100%;
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
+    position: relative;
 
 }
 .rectangle img{
@@ -828,7 +837,7 @@ footer{
     .section1{
         position: relative;
         margin-top: 2.5rem;
-        height: 500px;
+        height: 700px;
         width: 100vw;
     }
     .relaxbox{
@@ -868,8 +877,8 @@ footer{
     }
     .booking{
         width: 65%;
-        height: 20%;
-        background: white;
+        height: 100%;
+        background-color: white;
         opacity: 89%;
         border: 1px solid #b6b6b6;
         display: flex;
@@ -2435,3 +2444,42 @@ footer{
 }
 
 }
+
+
+
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 95%;
+  }
+  .tabs li {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .tabs li .rectangle.active,
+  .tabs li .rectangle:hover {
+    background: #000;
+        color: #E79434;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: fit-content;
+  }
+  .content > div {
+    padding: 20px;
+  }
+  .content > div:not(:first-child) {
+    display: none;
+  }
+  .section3prime{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
