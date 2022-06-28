@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/app.js"></script>
+    <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
     
@@ -16,17 +17,20 @@
         <img src="images/logo.png" alt="" width="16%">
         <ul>
             <li class="liwidth"><a href="">Accueil</a></li>
-            <li style="width: 200px;"><a href="">A propos de nous</a></li>
+            <li class="liwidth" style="width: 174.5px;"><a href="">A propos de nous</a></li>
             <li class="liwidth"><a href="">Chambres</a></li>
             <li class="liwidth"><a href="">Contact</a></li>
         </ul>
-        <button class="blackbtn" >S’enregistrer</button>
+        <div class="btanandmenu">
+            <button class="blackbtn" >S’enregistrer</button>
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </div>
     </header>
     <section class="section1">
         <div class="pool" style="background-image: url('images/pool.png');">
             <div class="booking">
                 <div class="check-in">
-                    <label for="datepickerentry" class="borderright pointer">
+                    <label for="datepickerentry" class="borderright pointer borderbottom">
                         <img src="icones/calendar.png" alt="">
                         <div class="datecontent">
                             <span class="bold">Entre</span>
@@ -36,7 +40,7 @@
                     </label>
                 </div>
                 <div class="check-in">
-                    <label for="datepickerexit" class="borderright pointer">
+                    <label for="datepickerexit" class="borderright pointer borderbottom">
                         <img src="icones/calendar.png" alt="">
                         <div class="datecontent">
                             <span class="bold">Sortie</span>
@@ -63,14 +67,41 @@
                 Complexe<br>
                 luxueux
             </span>
-           <button class="blackbtn">Decouvrir</button>
+           <button class="blackbtn blackbtn1">Decouvrir</button>
         </div>
-        
     </section>
     <section class="section2">
         <div class="mainSecDiv">
             <div class="mainSecDivLeft">
-                <div class="rooom">
+                <div class="container">
+                    <div class="image fade">
+                        <img src="/travaux/Brief maquettage niveau 1/images/room with big size bed.png" width="100%">
+                    </div>
+                    <div class="image fade">
+                        <img src="/travaux/Brief maquettage niveau 1/images/king size bed.png" width="100%">
+                    </div>
+                    <div class="image fade">
+                            <div class="discount">
+                                <span class="bold">
+                                    <strong>15%</strong> DE REDUCTION
+                                </span><br>
+                                <span>SEJOUR 2 NUITS <br>
+                                <br> OU PLUS</span>
+                            </div>
+                            <img src="images/bed with many pellows.png" alt="" width="100%">
+                    </div>
+            
+                    <a id="prev" onclick="show_slide(-1)">&#10094;</a>
+                    <a id="next" onclick="show_slide(1)">&#10095;</a>
+                    
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            
+                <div class="rooom r1">
                     <img src="images/king size bed.png" alt="">
                 </div>
                 <div class="rooom">
@@ -117,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bigsizeroom">
+                <div class="bigsizeroom r1">
                     <img src="images/room with big size bed.png" alt="">
                 </div>
             </div>
@@ -149,10 +180,13 @@
             </div>
         </div>
         <div class="restaurant">
+            <button class="hiddenbtn">
+                Reservez
+            </button>
             <img src="images/meal and view on marina.png" alt="">
             <div class="specificities">
-                    <div class="facilitiesContent">
-                        <span class="poppinstitle">Restaurant</span>
+                    <div class="facilitiesContent centeredcol">
+                        <span class="poppinstitle ">Restaurant</span>
                         
                         <br>
                         <br><p>Nous sommes respectueux envers nos clients. Nous offrons un services a la clientele rapide, courtois et efficace</p>
@@ -179,6 +213,7 @@
                         </div>
                     </div>    
             </div>
+
         </div>
     </section>
     <section class="section4">
@@ -232,7 +267,7 @@
                         </div>
                 </div>
             </div>
-            <div class="offeer .intro">
+            <div class="offeer hidden .intro">
                 <img src="images/man in front of a desk hall.png" alt="">
                 <div class="introrooms .intro">
                     <p>Une suite d’hotel un ensemble mobilier,
@@ -326,7 +361,7 @@
         </div>
         <div class="transpsidefooter">
             <div class="facilitiesContent">
-                <h2>S’abonner à <br> Notre bulletin</h2>
+                <h2>S’abonner à  Notre bulletin</h2>
                 <p>Pour  rendre votre sejour special et encore plus <br>
                     memorable.</p>
             </div>
@@ -343,7 +378,7 @@
                     <input type="text" placeholder="Email">
                 </div>
                 <div class="rectangle3 centered o-restaurant2 pointer">
-                    <span>Abonnez-vous maintenant</span>
+                    <span>S'abonner maintenant</span>
                 </div>
             </div>
         </div>
@@ -383,5 +418,6 @@
     $( "#datepickerexit" ).datepicker();
     } );
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

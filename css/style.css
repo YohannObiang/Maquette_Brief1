@@ -12,6 +12,9 @@
     justify-content: center;
 
 }
+.container{
+    display: none
+}
 .col{
     display: flex;
     flex-direction: column ;
@@ -32,6 +35,9 @@ header a{
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
+}
+header .fa-bars{
+    display: none;
 }
 .liwidth{
     width: 100px
@@ -409,8 +415,7 @@ header{
 
 .offeer{
     height: 500px;
-    width: 386
-    px;
+    width: 386px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -573,6 +578,9 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.hiddenbtn{
+    display: none;
+}
 .links{
     display: flex;
     color: #a1a1a1;
@@ -694,4 +702,1658 @@ footer{
     background: rgb(255,248,90);
     background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
 }
+@media screen and (min-width: 501px) and (max-width: 1330px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    .bold{
+        font-weight: 600;
+    }
+    .centered{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .container{
+        display: none
+    }
+    .col{
+        display: flex;
+        flex-direction: column ;
+    }
+    .borderright{
+        border-right: 1px solid black;
+    }
+    header ul{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+    header ul li{
+        list-style: none;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 100%;
+    }
+    header .fa-bars{
+        display: none;
+    }
+    .liwidth{
+        width: 100px;
+        margin-left: 0.5rem;
+    }
+    header a:hover{
+        font-weight: 600;
+    }
+    .pointer{
+        cursor: pointer;
+    }
+    .blackbtn{
+        width: 100%;
+        height: 50px;
+        background: black;
+        border: 2px solid black;
+        color: white;
+   
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 80%;
+    
+    }
+    .blackbtn:hover{
+        width: 100%;
+        height: 50px;
+        border: 2px solid black;
+        background: transparent;
+        border: 2px solid;
+        color: black;
+        cursor: pointer;
+    
+    }
+    .blackbtn1{
+        width: 30%;
+        height: 50px;
+        background: black;
+        border: 2px solid black;
+        color: white;
+   
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 80%;
+    
+    }
+    .blackbtn1:hover{
+        width: 30%;
+        height: 50px;
+        border: 2px solid black;
+        background: transparent;
+        border: 2px solid;
+        color: black;
+        cursor: pointer;
+    
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0px 0 0px;
+        height: fit-content;
+        width: 100vvw;
+    }
+    .section1{
+        position: relative;
+        margin-top: 2.5rem;
+        height: 500px;
+        width: 100vw;
+    }
+    .relaxbox{
+        position: absolute;
+        top: 0;
+        width: 400px;
+        height: 304px;
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-left: 68px;
+        justify-content: end;
+        padding-top: 30px;
+    }
+    .relaxbox span{
+        font-size: 330%;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+    } 
+    .relaxbox button{
+        margin-left: 2rem;
+    }
+    .pool{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-image: url(/ressources/images/Logo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .booking{
+        width: 65%;
+        height: 20%;
+        background: white;
+        opacity: 89%;
+        border: 1px solid #b6b6b6;
+        display: flex;
+    }
+    .datecontent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4px;
+        margin-left: 8px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        
+    }
+    .pos{
+        position: absolute;
+        top:50%;
+        font-size: 14px;
+    
+    }
+    
+    .check-in label{
+        display: flex;
+        width: 160px;
+        height: 40px;
+        justify-content: space-between;
+    }
+    
+    .check-in label img{
+        height: 30px;
+        width: 30px;
+    }
+    .datecontent input{
+        border: 1px solid white;
+        cursor: default; 
+        outline: none; 
+        width: 120px; 
+    
+    }
+    .check-in{
+        width: 210px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2{
+        background: #FBF7F4;
+        height: 150vh;
+        width: 100vw;
+        margin-top: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainSecDiv{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .mainSecDivLeft{
+        height: 797px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mainSecDiv .mainSecDivLeft .rooom{
+        height: 370px;
+        width: 100%;
+        position: relative;
+    }
+    .rooom img{
+        width: 100%;
+    }
+    .discount{
+        position: absolute;
+        height: 190px;
+        width: 275px;
+        background-color: rgba(255, 255, 255, 0.808);
+        bottom: 0;
+        border-left: 5px solid #E79434;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+    .discount span{
+        font-family: 'Poppins', sans-serif;
+        width: 226px;
+    }
+    .discount span strong{
+        font-size: 3rem;
+    }
+    .mainSecDivRight{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .facilities{
+        width: 100%;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .facilitiesContent h2{
+        font-size: 3.9rem;
+    }
+    .facilitiesContent p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .facilitiesContent5 h2{
+        font-size: 3.9rem;
+        margin-bottom: 1rem;  
+    }
+    .facilitiesContent5 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        line-height: 1rem;
+        margin-bottom: 4rem;
+    }
+    .itemandbtn{
+        width: 99%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .facilitiesbtn button{
+        height: 60px;
+        width: 130px;
+        background-color: transparent;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
+    }
+    .facilitiesbtn button:hover{
+        background: black;
+        color: white;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+    .facilitiesItems{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .tvled{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tvled span{
+        margin-top: 1rem;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .circle{
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        border: 3px solid #E79434;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rotate45deg{
+        transform: rotate(45deg);
+    }
+    .circle img{
+        height: 37px;
+        width: 37px;
+    }
+    .tvled{
+        font-size: 1.2rem;
+    }
+    .facilitiesbtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .centered p{
+        text-align: center;
+    }
+    .section3{
+        margin-top: 20vh ;
+        margin-bottom: 40vh;
+    }
+    
+    .rectangle{
+        height: 140px;
+        width: 24%;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    
+    }
+    .rectangle img{
+        height: 53px;
+        width: 53px;
+        margin-bottom: 1rem;
+    }
+    .o-restaurant{
+        background: #000;
+        color: #E79434;
+    }
+    .services{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .restaurant{
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .restaurant img{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+    .specificities{
+        width: 43%;
+    }
+    .poppinstitle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+    }
+    .lorem{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 5%;
+    }
+    .lorem ul{
+        list-style: none;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+    .lorem ul li::before{
+        content: "";
+        height: 8px;
+        border-radius: 50%;
+        background-color: #E79434;
+        font-weight: bolder;
+        display: inline-block;
+        width: 8px;
+        margin-right: 10px;
+    }
+    .btnbook{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 28%;
+        margin-top: 2rem;
+    }
+    .rectangle2{
+        height: 45px;
+        width: 19%;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    }
+    .services2{
+        display: flex;
+        justify-content: space-between;
+        width: 62%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .o-restaurant2{
+        background: #000;
+        color: #ffffff;
+    }
+    .introrooms{
+        margin-top: 1.6rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        width: 100%;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .introrooms p{
+        margin-bottom: 1.5rem;
+    }
+    
+    .offeer{
+        height: 500px;
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .intro p{
+        width: 400px;
+    }
+    .roomsoffers{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .section5{
+        background-color: #F6F5F1;
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 17rem;
+    }
+    .mainsecdiv2{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .Leftsside{
+        width: 50%;
+        height: 254px;
+        position: relative;
+        margin-top: 5rem;
+    }
+    .girlrousse{
+        position: absolute;
+        right: 0%;
+        top: 0%;
+    }
+    .jacketman{
+        position: absolute;
+        left: 0%;
+        bottom: -11%;
+    }
+    .bald{
+        position: absolute;
+        left: -91%;
+        top: 42%;
+    }
+    .Rightsside{
+        margin-top: 3rem;
+    }
+    .facilitiesContent2 h2{
+        font-size: 3.9rem;
+        margin-bottom: 7.5rem;
+    }
+    .facilitiesContent2 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        
+    }
+    .introrooms2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+     
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .introrooms2 p{
+        margin-bottom: 1.5rem;
+        width: 480px;
+        line-height: 2.2rem;
+        font-size: 1.3rem;
+    }
+    .name{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    }
+    .bottomavis{
+        display: flex;
+        justify-content: space-between;
+        width: 83%;
+    }
+    .bottomavis2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottomavis2 img{
+        height: 17px;
+        width: 17px;
+        margin-right: 7px;
+        margin-top: 32px;
+    }
+    .leftswitch{
+        height: 22px;
+        width: 33px;
+        border: 2px solid rgba(0, 0, 0, 0.322);
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    }
+    .rightswitch{
+        height: 22px;
+        width: 33px;
+        border: 2px solid rgba(0, 0, 0, 0.322);
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        background-color: #000;
+        margin-left: 7px;
+    }
+    .switch{
+        margin-top: 20px;
+        display: flex;
+        justify-content: end;
+        width: 81%;
+    }
+    .rightswitch img{
+        height: 25px;
+        width: 38px;
+    }
+    .leftswitch img{
+        height: 25px;
+        width: 38px;
+        transform: rotate(180deg);
+    }
+    .blackside{
+        width: 50%;
+        min-height: 350px;
+        background: #000;
+        padding-left: 7rem;
+        padding-top: 6rem;
+    }
+    .circle2{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle2 img{
+        height: 25px;
+        width: 25px;
+    }
+    .circle3{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        border: 3px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle3 img{
+        height: 25px;
+        width: 25px;
+    }
+    .smedias{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hiddenbtn{
+        display: none;
+    }
+    .links{
+        display: flex;
+        color: #a1a1a1;
+        list-style-type: none;
+        width: 550px;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+    .links ul{
+        list-style-type: none;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+        
+    
+    }
+    .links span{
+        font-weight: bold;
+        color: #ffffff;
+    }
+    footer{
+        background-color: #F6F5F1 ;
+        display: flex;
+    }
+    .transpsidefooter{
+        padding-left: 0rem;
+        width: 50%;
+    }
+    .facilitiesContent3 h2{
+        font-size: 3.9rem;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .facilitiesContent3 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 75px;
+        margin-top: 1rem;
+    }
+    .rectangle3{
+        height: 45px;
+        width: 48%;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+    }
+    .rectangle3 input{
+        width: 95%;
+        height: 95%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .rectangle3 input::placeholder{
+        font-size: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+    }
+    .mt-2{
+        margin-top: 2rem;
+    }
+    .gp1{
+        right: 2%;
+        top: 715%;
+        position: absolute;
+        width: 210px;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .gp2{
+        right: 2%;
+        top: 450%;
+        position: absolute;
+        width: 250px;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .gp3{
+        left: 0%;
+        top: 480%;
+        position: absolute;
+        width: 190px;
+        height: 110px;
+        transform: rotate(-45deg);
+        border-radius: 50px;
+        opacity: .25;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .gp4{
+        left: 2%;
+        top: 315%;
+        position: absolute;
+        width: 250px;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+}
+@media only screen and (max-width: 500px){
+    header ul{
+        display: none;
+    }
+    header{
+        width: 100vw;
+        height: fit-content;
+        margin: 0;
+        margin-bottom: 10px;
+        
+    }
+    header .fa-bars{
+        display: inline;
+        margin-right: 0.4rem;
+    }
+    header img{
+        min-height: 36px;
+        width:96px;
+    }
+    .blackbtn{
+        width: 85px;
+        height: 26px;
+        background: black;
+        color: white;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 10px;
+        margin-bottom: 0%;
+        margin-right: 0;
+    }
+    .blackbtn:hover{
+        width: 85px;
+        height: 30px;
+        border: 2px solid black;
+        background: transparent;
+        border: 1px solid;
+        color: black;
+        cursor: pointer;
 
+    }  
+    .btanandmenu{
+        display: flex;
+        align-items: center;
+    }
+    .fa-bars{
+        margin-left: 20px;
+    }
+    .borderright{
+        border-right: 0px solid black;
+    }
+    .liwidth{
+        width: 0
+    }
+    header a:hover{
+        font-weight: 600;
+    }
+    .pointer{
+        cursor: pointer;
+    }   
+    .section1{
+        width: 100%;
+        position: relative;
+        margin-top: 0;
+        height: 460px;
+        padding-bottom: 25px;
+    }
+    .relaxbox{
+        position: absolute;
+        top: 0;
+        width: 150px;
+        height: 150px;
+        background: rgba(255, 255, 255, 0.897);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+        margin-left: 4%;
+        justify-content: start;
+        padding-top: 0px;
+    }
+    .relaxbox span{
+        font-weight: bold;
+        margin-top: 4%;
+        margin-left: 5%;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 0.68rem;
+    } 
+    .relaxbox button{
+        margin-left: 5%;
+
+    }
+    .pool{
+        position: relative;
+        right: 0;
+        bottom: 0;
+        background-image: url(images/pool.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+
+    }
+    .booking{
+        width: 100%;
+        height: fit-content;
+        background: transparent;
+        opacity: 89%;
+        border: 0px solid #b6b6b6;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        position: absolute;
+        bottom:0px;
+    }
+    .datecontent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4px;
+        margin-left: 8px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        
+    }
+    .pos{
+        position: absolute;
+        top:50%;
+        font-size: 14px;
+    
+    }
+    
+    .check-in label{
+        display: flex;
+        width:70%;
+        height: 70px;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .check-in label img{
+        height: 35px;
+        width: 35px;
+        margin-right: 1.3rem;
+    }
+    .datecontent input{
+        border: 1px solid white;
+        cursor: default; 
+        outline: none; 
+        width: 130px; 
+        margin-top: 5px;
+    
+    }
+    .datecontent span{
+        margin-top: 5px;
+    }
+    .check-in{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.15rem;
+    }
+    .borderbottom{
+        border-bottom: 1px solid rgb(238, 238, 238);
+    }
+    .section2{
+        background: #FBF7F4;
+        height: fit-content;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainSecDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+        margin: 2rem 0 2rem 0;
+    }
+    .mainSecDivLeft{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mainSecDiv .mainSecDivLeft .rooom{
+        height: 370px;
+        width: 100vw;
+        position: relative;
+        display: none;
+    }
+    .r1{
+        display: none;
+    }
+    .discount{
+        position: absolute;
+        height: 43%;
+        width: 40%;
+        background-color: rgba(255, 255, 255, 0.808);
+        bottom: 4px;
+        border-left: 5px solid #E79434;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 10px;
+    
+        
+    }
+    .discount span{
+        font-family: 'Poppins', sans-serif;
+        width: 226px;
+        font-size: 10px;
+    }
+    .discount span strong{
+        font-size: 1.3rem;
+    }
+    .mainSecDivRight{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .facilities{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    
+    .facilitiesContent h2{
+        font-size: 3.5rem;
+    }
+    .facilitiesContent p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .facilitiesContent5 h2{
+        font-size: 22px;
+        margin-bottom: 2rem;  
+        text-align: center;
+    }
+    .facilitiesContent5 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        line-height: 0.7rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .itemandbtn{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .facilitiesbtn button{
+        width: 100px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+    .facilitiesbtn button:hover{
+        background: black;
+        color: white;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+    .facilitiesItems{
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin: auto;margin-bottom: 3rem;
+    }
+    .tvled{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tvled span{
+        margin-top: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        text-align: center;
+    }
+    .circle{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: 2px solid #E79434;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rotate45deg{
+        transform: rotate(45deg);
+    }
+    .circle img{
+        height: 25px;
+        width: 25px;
+    }
+    .tvled{
+        font-size: 1.2rem;
+    }
+    .facilitiesbtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .centered p{
+        text-align: center;
+    }
+    .section3{
+        margin-top: 3rem ;
+        margin-bottom: 5rem;
+    }
+    
+    .rectangle{
+        height: 80%;
+        width:90%;
+        border: 1px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        margin: 0;
+        margin-bottom:0%;
+    }
+    .rectangle img{
+        height: 25px;
+        width: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .o-restaurant{
+        background: #000;
+        color: #E79434;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 200px;
+    }
+    .restaurant{
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .restaurant p{
+        font-size: 12px;
+        line-height: 1.3rem;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .restaurant span {
+        text-align: center;
+    }
+    .restaurant img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .specificities{
+        width: 100%;
+    }
+    .poppinstitle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        margin: auto;
+    }
+    .centeredcol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .section4 h2{
+        font-size: 22px;
+    }
+    .lorem{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 5%;
+        display: none;
+    }
+    .lorem ul{
+        list-style: none;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+    .lorem ul li::before{
+        content: "";
+        height: 8px;
+        border-radius: 50%;
+        background-color: #E79434;
+        font-weight: bolder;
+        display: inline-block;
+        width: 8px;
+        margin-right: 10px;
+    }
+    .btnbook{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 28%;
+        margin-top: 2rem;
+        display: none;
+    }
+    .hiddenbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 28%;
+        width: 100px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        margin: auto;
+    }
+    .hiddenbtn:hover{
+        background: black;
+        color: white;
+        border: none;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .rectangle2{
+        height: 45px;
+        width: 19%;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    }
+    .services2{
+        display: none;
+    }
+    .o-restaurant2{
+        background: #000;
+        color: #ffffff;
+    }
+    .introrooms{
+        margin-top: 1.6rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        width: 350px;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .introrooms p{
+        margin-bottom: 1.5rem;
+    }
+    
+    .offeer{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .offeer p{
+        text-align: center;
+        margin: auto;
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .offeer button{
+        margin: 2rem auto;
+    }
+    .intro p{
+        width: 400px;
+        display: none;
+    }
+    .roomsoffers{
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .section5{
+        background-color: #F6F5F1;
+        width: 100%;
+        min-height: fit-content;
+        margin-top: 17rem;
+        padding-bottom: 5rem;
+    }
+    .mainsecdiv2{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .Leftsside{
+        display: none;
+        
+        
+    }
+    .girlrousse{
+        position: absolute;
+        right: 0%;
+        top: 0%;
+    }
+    .jacketman{
+        position: absolute;
+        left: 0%;
+        bottom: -11%;
+    }
+    .bald{
+        position: absolute;
+        left: -91%;
+        top: 42%;
+    }
+    .Rightsside{
+        margin-top: 3rem;
+    }
+    .facilitiesContent2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .facilitiesContent2 h2{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .facilitiesContent2 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        
+    }
+    .introrooms2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+     
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .introrooms2 p{
+        margin-bottom: 1.5rem;
+        width: 100%;
+        line-height: 2rem;
+        font-size: 16px;
+        text-align: center;
+    }
+    .name{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    }
+    .bottomavis{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 83%;
+        align-items: center;
+        text-align: center;
+    }
+    .bottomavis2{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .bottomavis2 img{
+        height: 17px;
+        width: 17px;
+        margin-right: 7px;
+        margin-top: 32px;
+    }
+    .leftswitch{
+        height: 30px;
+        width: 33px;
+        border: 2px solid rgba(0, 0, 0, 0.322);
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+    }
+    .rightswitch{
+        height: 30px;
+        width: 33px;
+        border: 2px solid rgba(0, 0, 0, 0.322);
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        background-color: #000;
+        margin-left: 7px;
+    }
+    .switch{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 81%;
+    }
+    .rightswitch img{
+        height: 25px;
+        width: 38px;
+    }
+    .leftswitch img{
+        height: 25px;
+        width: 38px;
+        transform: rotate(180deg);
+    }
+    .blackside{
+        width: 100vw;
+        min-height: 350px;
+        background: #000;
+        padding-left: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 4rem;
+    }
+    .circle2{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle2 img{
+        height: 25px;
+        width: 25px;
+    }
+    .circle3{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        border: 3px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle3 img{
+        height: 25px;
+        width: 25px;
+    }
+    .smedias{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0 2rem 2.5%  ;
+    }
+    .links{
+        display: flex;
+        color: #a1a1a1;
+        list-style-type: none;
+        width: 95%;
+        justify-content: space-between;
+        margin:auto;
+        
+    }
+    .links ul{
+        list-style-type: none;
+        line-height: 1rem;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        width: 33%;
+    
+    }
+    .links ul li{
+        line-height: 2rem;
+    }
+    .links span{
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .hidden{
+        display: none;
+    }
+    footer{
+        background-color: #F6F5F1 ;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .transpsidefooter{
+        padding-left: 0rem;
+        width: 100vw;
+        margin-bottom: 4rem;
+    }
+    .transpsidefooter h2{
+        text-align: center;
+        font-size: 22px;
+        width: 100%;
+    }
+    .transpsidefooter p{
+        text-align: center;
+        font-size: 16px;
+        margin: 1.5rem 0;
+    }
+    .facilitiesContent3 h2{
+        font-size: 22px;
+        margin-bottom: 2rem;  
+        text-align: center;
+    }
+    .facilitiesContent3 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        line-height: 0.7rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0px;
+        margin-top: 1rem;
+        width: 95%;
+        margin: 1rem auto;
+    }
+    .rectangle3{
+        height: 45px;
+        width: 48%;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+    }
+    .rectangle3 input{
+        width: 95%;
+        height: 95%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .rectangle3 input::placeholder{
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+    }
+    .mt-2{
+        margin-top: 2rem;
+    }
+    .gp1{
+        display: none;
+        right: 2%;
+        top: 715%;
+        position: absolute;
+        width: 210px;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .gp2{
+        display: none;
+        right: 2%;
+        top: 450%;
+        position: absolute;
+        width: 250px;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .gp3{
+        display: none;
+        left: 0%;
+        top: 480%;
+        position: absolute;
+        width: 190px;
+        height: 110px;
+        transform: rotate(-45deg);
+        border-radius: 50px;
+        opacity: .25;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .gp4{
+        display: none;
+        left: 2%;
+        top: 315%;
+        position: absolute;
+        width: 250px;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+
+
+.container{
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 330px;
+  position: relative;    
+}
+
+.image{
+  display: none;
+  position: relative;
+  width: 95%;
+}
+
+/* Next & previous buttons */
+#prev{  
+  position: absolute;
+  top: 37%;
+  left:5%;
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#next{
+  position: absolute;
+  top:37%;
+  right: 5%;
+  cursor: pointer;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#prev:hover, #next:hover {
+  background: rgba(0, 0, 0, 0.5);
+} 
+
+.dots{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.dot{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 7px;
+  background-color: #bbb;
+  border-radius: 50%;
+  /* transition from one do to the next */
+  transition: background-color 0.6s ease;
+}
+
+/* We create this class with JavaScript. It makes the current dot darker gray */
+.active{
+  background-color: #717171;
+} 
+
+/* create fade animation when switching between images */
+.fade{
+/* Animation support for different browsers */
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} 
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+
+}
