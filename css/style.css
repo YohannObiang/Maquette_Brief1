@@ -767,7 +767,7 @@ footer{
         text-decoration: none;
         color: black;
         font-family: 'Poppins', sans-serif;
-        font-size: 100%;
+        font-size: 2vw;
     }
     header .fa-bars{
         display: none;
@@ -784,14 +784,14 @@ footer{
     }
     .blackbtn{
         width: 100%;
-        height: 50px;
+        padding: 0 1vw;
+        height: 5vw;
         background: black;
         border: 2px solid black;
         color: white;
-   
         font-family: 'Poppins', sans-serif;
         font-weight: bolder;
-        font-size: 80%;
+        font-size: 2vw;
     
     }
     .blackbtn:hover{
@@ -805,19 +805,18 @@ footer{
     
     }
     .blackbtn1{
-        width: 30%;
+        width: 10vw;
         height: 50px;
         background: black;
         border: 2px solid black;
         color: white;
-   
         font-family: 'Poppins', sans-serif;
         font-weight: bolder;
-        font-size: 80%;
+        font-size: 2vw;
     
     }
     .blackbtn1:hover{
-        width: 30%;
+        width: 10vw;
         height: 50px;
         border: 2px solid black;
         background: transparent;
@@ -832,62 +831,71 @@ footer{
         align-items: center;
         margin: auto;
         height: fit-content;
-        width: 80vw;
+        width: 95vw;
     }
     .section1{
         position: relative;
         margin-top: 2.5rem;
-        height: 700px;
+        height: 20vw;
         width: 100vw;
     }
     .relaxbox{
         position: absolute;
         top: 0;
-        width: 400px;
-        height: 304px;
+        left: 5%;
+        width: fit-content;
+        height: fit-content;
         background: white;
         color: black;
         display: flex;
         flex-direction: column;
-        margin-left: 68px;
+        margin-left: 0px;
         justify-content: end;
         padding-top: 30px;
+        padding-right: 4vw;
+        padding-left: 4vw;
+
     }
     .relaxbox span{
-        font-size: 330%;
+        font-size: 5vw;
         font-weight: bold;
         margin-bottom: 1.5rem;
         margin-left: 2rem;
     } 
     .relaxbox button{
         margin-left: 2rem;
+        padding: 1vw 7vw;
+        height: fit-content;
+
     }
     .pool{
         position: absolute;
         right: 0;
-        bottom: 0;
+        top: 0;
         background-image: url(/ressources/images/Logo.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100%;
-        width: 70vw;
+        height: 50vw;
+        width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: end;
     }
     .booking{
         width: 65%;
-        height: 100%;
-        background-color: white;
+        height: 17%;
+        background: white;
         opacity: 89%;
         border: 1px solid #b6b6b6;
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .datecontent{
         display: flex;
         flex-direction: column;
         margin-top: 4px;
-        margin-left: 4px;
+        margin-left: 8px;
         font-family: 'Poppins', sans-serif;
         position: relative;
         
@@ -898,29 +906,28 @@ footer{
         font-size: 14px;
     
     }
-    
+    #ddate, #adate, #numberOfPeople{
+        font-size: 1.2vw;
+    }
     .check-in label{
         display: flex;
-        width: 155px;
+        width: 100%;
         height: 40px;
         justify-content: space-between;
-        margin-left: 10px;
+        font-size: 1.3vw;
+        padding-left: 0.6rem;
     }
     
     .check-in label img{
-        height: 25px;
-        width: 25px;
+        height: 4vw;
+        width: 4vw;
     }
     .datecontent input{
         border: 1px solid white;
         cursor: default; 
         outline: none; 
-        width: 90%; 
+        width: 70%; 
     
-    }
-    
-    label {
-        font-size: 100%;
     }
     .check-in{
         width: 33%;
@@ -929,48 +936,45 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    .search{
-
-    }
     .section2{
         background: #FBF7F4;
-        height: 600px;
+        height: 60vw;
         width: 100vw;
-        margin-top: 4rem;
+        margin-top: 30vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 4rem 0;
     }
     .mainSecDiv{
         display: flex;
-        justify-content: flex-start;
-        width: 95vw;
+        justify-content: space-between;
+        width: 95%;
         height: 100%;
-        padding: 4rem 0;
-
+        margin: auto;
+    }
+    .hiddenreverse{
+        display: none;
     }
     .mainSecDivLeft{
         height: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 48%;
-        margin-right: 3rem;
-        
     }
     .mainSecDiv .mainSecDivLeft .rooom{
-        height: 40%;
+        height: 47%;
         width: 100%;
-        position: none;
-        margin-top: 2rem;
+        position: relative;
     }
     .rooom img{
         height: 100%;
     }
     .discount{
         position: absolute;
-        height: 190px;
-        width: 275px;
+        height: 43%;
+        width: 40%;
         background-color: rgba(255, 255, 255, 0.808);
         bottom: 0;
         border-left: 5px solid #E79434;
@@ -978,58 +982,50 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        display: none;
     
         
     }
     .discount span{
         font-family: 'Poppins', sans-serif;
-        width: 226px;
+        width: 80%;
+        line-height: 2vw;
     }
     .discount span strong{
-        font-size: 3rem;
+        font-size: 2vw;
     }
     .mainSecDivRight{
         height: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 45%;
     }
     .facilities{
+        width: 100%;
+        height: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: fit-content;
-        width: 100%;
-        margin-top: 2rem;
-    }
-    .bigsizeroom{
-
-        height: 45%;
-        width: 100%;
-        position: none;       
-        margin-top: 2rem;
-    }
-    .bigsizeroom img{
-       
-        height: 80%;
+    
     }
     .facilitiesContent h2{
-        font-size: 3.9rem;
+        font-size: 5.8vw;
     }
     .facilitiesContent p{
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.5vw;
+        line-height: 3vw;
+        margin-bottom: 3.5vw;
     }
     .facilitiesContent5 h2{
-        font-size: 100%;
-        margin-bottom: 0rem;  
+        font-size: 4.4vw;
+        margin-bottom: 1rem;  
     }
     .facilitiesContent5 p{
         font-family: 'Poppins', sans-serif;
-        font-size: 100%;
-        line-height: 1rem;
+        font-size: 1.6vw;
+        line-height: 1.6vw;
         margin-bottom: 0rem;
     }
     .itemandbtn{
@@ -1037,13 +1033,18 @@ footer{
         display: flex;
         justify-content: space-between;
     }
+
     .facilitiesbtn button{
-        height: 60px;
-        width: 100%;
+        height: 4vw;
+        width: 100vw;
         background-color: transparent;
-        border: 2px solid black;
+        border: 1px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 100%;
+        font-size: 1vw;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .facilitiesbtn button:hover{
         background: black;
@@ -1052,51 +1053,69 @@ footer{
         font-family: 'Poppins', sans-serif;
         font-weight: bolder;
         cursor: pointer;
-        font-size: 1.1rem;
+        font-size: 1vw;
     }
     .facilitiesItems{
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        width: 80%;
     }
     .tvled{
+        width: 25%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .tvled span{
-        margin-top: 1rem;
+        margin-top: 0vw;
         font-family: 'Poppins', sans-serif;
+        font-size: 80%;
     
     }
     .circle{
-        height: 50px;
-        width: 50px;
+        height: 7vw;
+        width: 7vw;
         border-radius: 50%;
-        border: 3px solid #E79434;
+        border: 0.2vw solid #E79434;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1vw;
+    }
+    .hiddenreverse{
+        display: none;
     }
     .rotate45deg{
         transform: rotate(45deg);
     }
     .circle img{
-        height: 30px;
-        width: 30px;
+        height: 4vw;
+        width: 4vw;
     }
     .tvled{
-        font-size: 100%;
+        font-size: 2vw;
     }
     .facilitiesbtn{
-        width: 25%;
         display: flex;
         flex-direction: column;
         justify-content: end;
+        width: 100%;
+    }
+    .facilitiesbtn button{
+        width: 25%;
+        font-size: 1.5vw;
     }
     .centered p{
         text-align: center;
+    }
+    .bigsizeroom{
+        height: 55%;
+        width: 100%;
+    }
+    .bigsizeroom img{
+        height: 100%;
     }
     .section3{
         margin-top: 20vh ;
@@ -1104,17 +1123,17 @@ footer{
     }
     
     .rectangle{
-        height: 70px;
-        width: 24%;
+        height: 10vw;
+        width: 100%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 90%;
+        font-size: 2vw;
     
     }
     .rectangle img{
-        height: 40px;
-        width: 40px;
-        margin-bottom: 0rem;
+        height: 4.5vw;
+        width: 4.5vw;
+        margin-bottom: 1vw;
     }
     .o-restaurant{
         background: #000;
@@ -1135,8 +1154,8 @@ footer{
         justify-content: space-between;
     }
     .restaurant img{
-        width: 0%;
-        
+        width: 55%;
+
         margin-bottom: 0rem;
     }
     .specificities{
@@ -1156,11 +1175,11 @@ footer{
     }
     .lorem ul{
         list-style: none;
-        height: 150px;
+        height: 13vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        font-size: 1.1rem;
+        font-size: 1.5vw;
     }
     .lorem ul li::before{
         content: "";
@@ -1180,16 +1199,16 @@ footer{
         margin-top: 2rem;
     }
     .rectangle2{
-        height: 45px;
-        width: 19%;
+        height: 4vw;
+        width: 18%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.5vw;
     }
     .services2{
         display: flex;
         justify-content: space-between;
-        width: 62%;
+        width: 62vw;
         margin: auto;
         margin-top: 2rem;
     }
@@ -1197,20 +1216,27 @@ footer{
         background: #000;
         color: #ffffff;
     }
+    .section4{
+        margin-bottom: 6vw;
+    }
     .introrooms{
-        margin-top: 1.6rem;
+        margin-top: 0rem;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
+        font-size: 2vw;
         width: 100%;
-        line-height: 2rem;
+        height: 40%;
+        line-height: 3vw;
         color: rgba(0, 0, 0, 0.658);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .introrooms p{
-        margin-bottom: 1.5rem;
+        margin-bottom: 0rem;
     }
     
     .offeer{
-        height: 500px;
+        height: 60vw;
         width: 32%;
         display: flex;
         flex-direction: column;
@@ -1229,20 +1255,23 @@ footer{
     .section5{
         background-color: #F6F5F1;
         width: 100%;
-        min-height: 100vh;
-        margin-top: 17rem;
+        min-height: 0vh;
+        margin-top: 0rem;
+        height: fit-content;
     }
     .mainsecdiv2{
         display: flex;
         width: 95%;
         justify-content: space-between;
         margin: auto;
+        padding: 4vw 0;
     }
     .Leftsside{
         width: 50%;
         height: 254px;
         position: relative;
         margin-top: 5rem;
+        display: none;
     }
     .girlrousse{
         position: absolute;
@@ -1263,12 +1292,12 @@ footer{
         margin-top: 3rem;
     }
     .facilitiesContent2 h2{
-        font-size: 3.9rem;
-        margin-bottom: 7.5rem;
+        font-size: 6vw;
+        margin-bottom: 5vw;
     }
     .facilitiesContent2 p{
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.5vw;
         
     }
     .introrooms2{
@@ -1279,10 +1308,10 @@ footer{
         color: rgba(0, 0, 0, 0.658);
     }
     .introrooms2 p{
-        margin-bottom: 1.5rem;
-        width: 480px;
-        line-height: 2.2rem;
-        font-size: 1.3rem;
+        margin-bottom: 7vw;
+        width: 60%;
+        line-height: 3vw;
+        font-size: 1.5vw;
     }
     .name{
         font-family: 'Poppins', sans-serif;
@@ -1291,28 +1320,31 @@ footer{
     .bottomavis{
         display: flex;
         justify-content: space-between;
-        width: 83%;
+        width: 62%;
+    }
+    .bottomavis span{
+        font-size: 2vw;
     }
     .bottomavis2{
         display: flex;
         justify-content: space-between;
     }
     .bottomavis2 img{
-        height: 17px;
-        width: 17px;
+        height: 2vw;
+        width: 2vw;
         margin-right: 7px;
         margin-top: 32px;
     }
     .leftswitch{
-        height: 22px;
-        width: 33px;
+        height: 2.5vw;
+        width: 3vw;
         border: 2px solid rgba(0, 0, 0, 0.322);
         font-family: 'Poppins', sans-serif;
         font-size: 1.3rem;
     }
     .rightswitch{
-        height: 22px;
-        width: 33px;
+        height: 2.5vw;
+        width: 3vw;
         border: 2px solid rgba(0, 0, 0, 0.322);
         font-family: 'Poppins', sans-serif;
         font-size: 1.3rem;
@@ -1323,27 +1355,28 @@ footer{
         margin-top: 20px;
         display: flex;
         justify-content: end;
-        width: 81%;
+        width: 62%;
     }
     .rightswitch img{
-        height: 25px;
-        width: 38px;
+        height: 2.5vw;
+        width: 3vw;
     }
     .leftswitch img{
-        height: 25px;
-        width: 38px;
+        height: 2.5vw;
+        width: 3vw;
         transform: rotate(180deg);
     }
     .blackside{
-        width: 50%;
-        min-height: 350px;
+        width: 47%;
+        min-height: 0;
+        height: 100%;
         background: #000;
-        padding-left: 7rem;
-        padding-top: 6rem;
+        padding-left: 3vw;
+        padding-top: 4vw;
     }
     .circle2{
-        height: 50px;
-        width: 50px;
+        height: 6vw;
+        width: 6vw;
         border-radius: 50%;
         border: 3px solid #ffffff;
         display: flex;
@@ -1351,12 +1384,12 @@ footer{
         justify-content: center;
     }
     .circle2 img{
-        height: 25px;
-        width: 25px;
+        height: 3vw;
+        width: 3vw;
     }
     .circle3{
-        height: 50px;
-        width: 50px;
+        height: 6vw;
+        width: 6vw;
         border-radius: 50%;
         background-color: #ffffff;
         border: 3px solid #ffffff;
@@ -1365,29 +1398,31 @@ footer{
         justify-content: center;
     }
     .circle3 img{
-        height: 25px;
-        width: 25px;
+        height: 3vw;
+        width: 3vw;
     }
     .smedias{
-        width: 250px;
+        margin-bottom: 2vw;
+        width: 50%;
         display: flex;
         justify-content: space-between;
     }
     .hiddenbtn{
         display: none;
     }
+  
     .links{
         display: flex;
         color: #a1a1a1;
         list-style-type: none;
-        width: 550px;
+        width: 90%;
         justify-content: space-between;
-        margin-top: 3rem;
+        margin-top: 0rem;
     }
     .links ul{
         list-style-type: none;
-        line-height: 3rem;
-        font-size: 1.1rem;
+        line-height: 4vw;
+        font-size: 1.5vw;
         font-family: 'Poppins', sans-serif;
         
     
@@ -1399,10 +1434,13 @@ footer{
     footer{
         background-color: #F6F5F1 ;
         display: flex;
+        height: 30vw;
+        justify-content: space-between;
     }
     .transpsidefooter{
         padding-left: 0rem;
-        width: 50%;
+        width: 48%;
+        height: 100%;
     }
     .facilitiesContent3 h2{
         font-size: 3.9rem;
@@ -1416,16 +1454,17 @@ footer{
     }
     .form{
         display: flex;
-        justify-content: space-between;
-        padding-right: 75px;
-        margin-top: 1rem;
+        justify-content: flex-start;
+        padding-right: 0px;
+        margin-top: 1vw;
     }
     .rectangle3{
-        height: 45px;
-        width: 48%;
+        height: 4.5vw;
+        width: 45%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.5vw;
+        margin-right: 1vw;
     }
     .rectangle3 input{
         width: 95%;
@@ -1434,11 +1473,11 @@ footer{
         border: none;
         outline: none;
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1.5vw;
         font-family: 'Poppins', sans-serif;
     }
     .rectangle3 input::placeholder{
-        font-size: 1.1rem;
+        font-size: 1.5vw;
         font-family: 'Poppins', sans-serif;
         color: black;
     }
@@ -1455,6 +1494,7 @@ footer{
         border-radius: 50px;
         opacity: .10;
         filter: blur(38px);
+        display: none;
         background: rgb(255,248,90);
         background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
     }
@@ -1464,6 +1504,8 @@ footer{
         position: absolute;
         width: 250px;
         height: 150px;
+        display: none;
+
         transform: rotate(-30deg);
         border-radius: 50px;
         opacity: .10;
@@ -1476,6 +1518,8 @@ footer{
         top: 480%;
         position: absolute;
         width: 190px;
+        display: none;
+
         height: 110px;
         transform: rotate(-45deg);
         border-radius: 50px;
@@ -1490,6 +1534,8 @@ footer{
         position: absolute;
         width: 250px;
         height: 150px;
+        display: none;
+
         transform: rotate(-30deg);
         border-radius: 50px;
         opacity: .10;
@@ -1562,8 +1608,8 @@ footer{
         width: 100%;
         position: relative;
         margin-top: 0;
-        height: 520px;
-        padding-bottom: 25px;
+        height: 120vw;
+        padding-bottom: 0px;
     }
     .relaxbox{
         position: absolute;
@@ -1592,7 +1638,7 @@ footer{
 
     }
     .pool{
-        position: relative;
+        position: absolute;
         right: 0;
         bottom: 0;
         background-image: url(images/pool.png);
@@ -1611,8 +1657,9 @@ footer{
         display: flex;
         flex-direction: column;
         margin: auto;
-        position: relative;
-        bottom:0px;
+        position: absolute;
+        bottom:30%;
+        height: 15vw;
     }
     .datecontent{
         display: flex;
@@ -1633,15 +1680,15 @@ footer{
     .check-in label{
         display: flex;
         width:70%;
-        height: 70px;
+        height: 17vw;
         justify-content: start;
         align-items: center;
     }
     
     .check-in label img{
-        height: 35px;
-        width: 35px;
-        margin-right: 1.3rem;
+        height: 9vw;
+        width: 9vw;
+        margin-right: 1vw;
     }
     .datecontent input{
         border: 1px solid white;
@@ -1764,12 +1811,13 @@ footer{
     }
     
     .facilitiesContent h2{
-        font-size: 3.5rem;
+        font-size: 5.8vw;
     }
     .facilitiesContent p{
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.5vw;
+        line-height: 3vw;
+        margin-bottom: 3.5vw;
     }
     .facilitiesContent5 h2{
         font-size: 22px;
@@ -1826,20 +1874,21 @@ footer{
         text-align: center;
     }
     .circle{
-        height: 60px;
-        width: 60px;
+        height: 15vw;
+        width: 15vw;
         border-radius: 50%;
-        border: 2px solid #E79434;
+        border: 0.2vw solid #E79434;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1vw;
     }
     .rotate45deg{
         transform: rotate(45deg);
     }
     .circle img{
-        height: 25px;
-        width: 25px;
+        height: 7vw;
+        width: 7vw;
     }
     .tvled{
         font-size: 1.2rem;
@@ -1858,18 +1907,17 @@ footer{
     }
     
     .rectangle{
-        height: 80%;
-        width:90%;
-        border: 1px solid black;
+        height: 10vw;
+        width: 100%;
+        border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 12px;
-        margin: 0;
-        margin-bottom:0%;
+        font-size: 2vw;
+    
     }
     .rectangle img{
-        height: 25px;
-        width: 25px;
-        margin-bottom: 0.5rem;
+        height: 4.5vw;
+        width: 4.5vw;
+        margin-bottom: 1vw;
     }
     .o-restaurant{
         background: #000;
@@ -1995,15 +2043,19 @@ footer{
         color: #ffffff;
     }
     .introrooms{
-        margin-top: 1.6rem;
+        margin-top: 0rem;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
-        width: 350px;
-        line-height: 2rem;
+        font-size: 2vw;
+        width: 100%;
+        height: 40%;
+        line-height: 3vw;
         color: rgba(0, 0, 0, 0.658);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .introrooms p{
-        margin-bottom: 1.5rem;
+        margin-bottom: 0rem;
     }
     
     .offeer{
@@ -2258,18 +2310,17 @@ footer{
     }
     .form{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         padding-right: 0px;
-        margin-top: 1rem;
-        width: 95%;
-        margin: 1rem auto;
+        margin-top: 2vw;
     }
     .rectangle3{
-        height: 45px;
-        width: 48%;
+        height: 10vw;
+        width: 45%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
+        font-size: 3vw;
+        margin-right: 2vw;
     }
     .rectangle3 input{
         width: 95%;
@@ -2278,11 +2329,11 @@ footer{
         border: none;
         outline: none;
         text-align: center;
-        font-size: 1rem;
+        font-size: 3vw;
         font-family: 'Poppins', sans-serif;
     }
     .rectangle3 input::placeholder{
-        font-size: 1rem;
+        font-size: 3vw;
         font-family: 'Poppins', sans-serif;
         color: black;
     }
@@ -2415,7 +2466,7 @@ footer{
 
 /* We create this class with JavaScript. It makes the current dot darker gray */
 .active{
-  background-color: #717171;
+  background-color: transparent;
 } 
 
 /* create fade animation when switching between images */
