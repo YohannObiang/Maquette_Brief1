@@ -836,7 +836,7 @@ footer{
     .section1{
         position: relative;
         margin-top: 2.5rem;
-        height: 20vw;
+        height: 50vw;
         width: 100vw;
     }
     .relaxbox{
@@ -875,7 +875,7 @@ footer{
         background-image: url(/ressources/images/Logo.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 50vw;
+        height: 100%;
         width: 70%;
         display: flex;
         flex-direction: column;
@@ -902,7 +902,7 @@ footer{
     }
     .pos{
         position: absolute;
-        top:50%;
+        top:20%;
         font-size: 14px;
     
     }
@@ -927,6 +927,7 @@ footer{
         cursor: default; 
         outline: none; 
         width: 70%; 
+        font-size: 1.5vw;
     
     }
     .check-in{
