@@ -186,28 +186,42 @@ header{
 }
 .section2{
     background: #FBF7F4;
-    height: 150vh;
-    width: 100%;
+    height: 60vw;
+    width: 100vw;
     margin-top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4rem 0;
 }
 .mainSecDiv{
     display: flex;
     justify-content: space-between;
     width: 95%;
+    height: 100%;
+    margin: auto;
 }
 .mainSecDivLeft{
-    height: 797px;
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .mainSecDiv .mainSecDivLeft .rooom{
-    height: 370px;
-    width: 563px;
+    height: 47%;
+    width: 100%;
     position: relative;
+}
+.rooom img{
+    height: 100%;
+}
+.bigsizeroom{
+    width: 100%;
+    margin-top: 0vw;
+}
+.bigsizeroom img{
+    width: 100%;
 }
 #hiddenicon{
     position: absolute;
@@ -237,49 +251,56 @@ header{
     font-size: 3rem;
 }
 .mainSecDivRight{
-    height: 800px;
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .facilities{
     width: 100%;
-    height: 310px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
 .facilitiesContent h2{
-    font-size: 3.9rem;
+    font-size: 4.8vw;
 }
 .facilitiesContent p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    margin-bottom: 3.5vw;
 }
 .facilitiesContent5 h2{
-    font-size: 3.9rem;
+    font-size: 4.2vw;
     margin-bottom: 1rem;  
 }
 .facilitiesContent5 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1rem;
-    margin-bottom: 4rem;
+    font-size: 1.6vw;
+    line-height: 1.6vw;
+    margin-bottom: 3vw;
 }
 .itemandbtn{
-    width: 99%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .facilitiesbtn button{
-    height: 60px;
-    width: 130px;
+    height: 4vw;
+    width: 100vw;
     background-color: transparent;
-    border: 2px solid black;
+    border: 0.1vw solid black;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 1vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .facilitiesbtn button:hover{
     background: black;
@@ -288,47 +309,65 @@ header{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1vw;
 }
 .facilitiesItems{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
 }
 .tvled{
+    width: 25%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .tvled span{
-    margin-top: 1rem;
+    margin-top: 0vw;
     font-family: 'Poppins', sans-serif;
+    font-size: 80%;
 
 }
 .circle{
-    height: 75px;
-    width: 75px;
+    height: 7vw;
+    width: 7vw;
     border-radius: 50%;
-    border: 3px solid #E79434;
+    border: 0.2vw solid #E79434;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1vw;
+}
+.hiddenreverse{
+    display: none;
 }
 .rotate45deg{
     transform: rotate(45deg);
 }
 .circle img{
-    height: 37px;
-    width: 37px;
+    height: 4vw;
+    width: 4vw;
 }
 .tvled{
-    font-size: 1.2rem;
+    font-size: 2vw;
 }
 .facilitiesbtn{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    width: 100%;
+}
+.facilitiesbtn button{
+    width: 25%;
+    font-size: 1.5vw;
+}
+.facilitiesbtn1 button{
+    width: fit-content;
+    font-size: 1.5vw;
+    padding: 0 1vw;
+    margin-left: 4vw;
 }
 .centered p{
     text-align: center;
@@ -372,8 +411,14 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.restaurant img{
+    width: 55%;
+}
 .specificities{
     width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .poppinstitle{
     font-family: 'Poppins', sans-serif;
@@ -413,7 +458,7 @@ header{
 }
 .rectangle2{
     height: 45px;
-    width: 19%;
+    width: 100%;
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
@@ -426,8 +471,8 @@ header{
     margin-top: 2rem;
 }
 .o-restaurant2{
-    background: #000;
-    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    color: #000000;
 }
 .introrooms{
     margin-top: 1.6rem;
@@ -443,7 +488,7 @@ header{
 
 .offeer{
     height: 500px;
-    width: 386px;
+    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -475,6 +520,7 @@ header{
     height: 254px;
     position: relative;
     margin-top: 5rem;
+    display: block;
     
 }
 .girlrousse{
@@ -679,6 +725,7 @@ footer{
     margin-top: 2rem;
 }
 .gp1{
+    display: block;
     right: 2%;
     top: 715%;
     position: absolute;
@@ -841,23 +888,23 @@ footer{
     }
     .relaxbox{
         position: absolute;
-        top: 0;
+        top: -2px;
         left: 5%;
-        width: fit-content;
-        height: fit-content;
+        width: 40vw;
+        height: 30vw;
         background: white;
         color: black;
         display: flex;
         flex-direction: column;
         margin-left: 0px;
         justify-content: end;
-        padding-top: 30px;
+        padding-top: 31px;
         padding-right: 4vw;
-        padding-left: 4vw;
+        padding-left: 0vw;
 
     }
     .relaxbox span{
-        font-size: 5vw;
+        font-size: 5.4vw;
         font-weight: bold;
         margin-bottom: 1.5rem;
         margin-left: 2rem;
@@ -902,7 +949,7 @@ footer{
     }
     .pos{
         position: absolute;
-        top:20%;
+        top: 1.5vw;
         font-size: 14px;
     
     }
@@ -912,10 +959,11 @@ footer{
     .check-in label{
         display: flex;
         width: 100%;
-        height: 40px;
+        height: 4vw;
         justify-content: space-between;
         font-size: 1.3vw;
         padding-left: 0.6rem;
+        align-items: center;
     }
     
     .check-in label img{
@@ -1039,7 +1087,7 @@ footer{
         height: 4vw;
         width: 100vw;
         background-color: transparent;
-        border: 1px solid black;
+        border: 0.1vw solid black;
         font-family: 'Poppins', sans-serif;
         font-size: 1vw;
         
@@ -1103,14 +1151,16 @@ footer{
         flex-direction: column;
         justify-content: end;
         width: 100%;
-        display: none;
     }
     .facilitiesbtn button{
         width: 25%;
         font-size: 1.5vw;
     }
-    .centered p{
-        text-align: center;
+    .facilitiesbtn1 button{
+        width: fit-content;
+        font-size: 1.5vw;
+        padding: 0 1vw;
+        margin-left: 4vw;
     }
     .bigsizeroom{
         height: 55%;
@@ -1127,7 +1177,7 @@ footer{
     .rectangle{
         height: 10vw;
         width: 100%;
-        border: 2px solid black;
+        border: 0.2vw solid black;
         font-family: 'Poppins', sans-serif;
         font-size: 2vw;
     
@@ -1202,7 +1252,7 @@ footer{
     }
     .rectangle2{
         height: 4vw;
-        width: 18%;
+        width: 100%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
         font-size: 1.5vw;
@@ -1215,8 +1265,8 @@ footer{
         margin-top: 2rem;
     }
     .o-restaurant2{
-        background: #000;
-        color: #ffffff;
+        background: rgba(0, 0, 0, 0);
+        color: #000000;
     }
     .section4{
         margin-bottom: 6vw;
@@ -1292,11 +1342,19 @@ footer{
     }
     .Rightsside{
         margin-top: 3rem;
+        width: fit-content;
     }
-    .facilitiesContent2{}
+    .facilitiesContent2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
     .facilitiesContent2 h2{
         font-size: 6vw;
         margin-bottom: 5vw;
+        width: fit-content;
     }
     .facilitiesContent2 p{
         font-family: 'Poppins', sans-serif;
@@ -1306,15 +1364,17 @@ footer{
     .introrooms2{
         font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
-     
+        width: fit-content;
         line-height: 2rem;
         color: rgba(0, 0, 0, 0.658);
     }
     .introrooms2 p{
-        margin-bottom: 7vw;
-        width: 60%;
+        margin-bottom: 0vw;
+        width: 65%;
         line-height: 3vw;
-        font-size: 1.5vw;
+        font-size: 2vw;
+        text-align: center;
+        margin: 2vw auto 4vw auto;
     }
     .name{
         font-family: 'Poppins', sans-serif;
@@ -1355,9 +1415,10 @@ footer{
         margin-left: 7px;
     }
     .switch{
-        margin-top: 20px;
+        margin-top: 10vw;
+        margin-bottom: 5vw;
         display: flex;
-        justify-content: end;
+        justify-content: center;
         width: 62%;
     }
     .rightswitch img{
@@ -1588,6 +1649,27 @@ footer{
         cursor: pointer;
 
     }  
+    .blackbtn1{
+        width: 15vw;
+        height: 50px;
+        background: black;
+        border: 2px solid black;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 2vw;
+    
+    }
+    .blackbtn1:hover{
+        width: 15vw;
+        height: 50px;
+        border: 2px solid black;
+        background: transparent;
+        border: 2px solid;
+        color: black;
+        cursor: pointer;
+    
+    }
     .btanandmenu{
         display: flex;
         align-items: center;
@@ -1617,8 +1699,8 @@ footer{
     .relaxbox{
         position: absolute;
         top: 0;
-        width: 150px;
-        height: 150px;
+        width: 35vw;
+        height: 35vw;
         background: rgba(255, 255, 255, 0.897);
         color: black;
         display: flex;
@@ -1632,13 +1714,14 @@ footer{
         font-weight: bold;
         margin-top: 4%;
         margin-left: 5%;
-        font-size: 18px;
-        line-height: 25px;
-        margin-bottom: 0.68rem;
+        font-size: 4.8vw;
+        line-height: 6vw;
+        margin-bottom: 3vw;
     } 
     .relaxbox button{
-        margin-left: 5%;
-
+        margin-left: 2vw;
+        padding: 1vw 1vw;
+        height: fit-content;
     }
     .pool{
         position: absolute;
@@ -1752,6 +1835,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 5rem;
     }
     .mainSecDiv{
         display: flex;
@@ -1765,6 +1849,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
     }
     .mainSecDiv .mainSecDivLeft .rooom{
         height: 370px;
@@ -1803,6 +1888,8 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10vw;
     }
     .facilities{
         width: 100%;
@@ -1818,8 +1905,8 @@ footer{
     }
     .facilitiesContent p{
         font-family: 'Poppins', sans-serif;
-        font-size: 1.5vw;
-        line-height: 3vw;
+        font-size: 2vw;
+        line-height: 5vw;
         margin-bottom: 3.5vw;
     }
     .facilitiesContent5 h2{
@@ -1845,9 +1932,10 @@ footer{
         width: 100px;
         height: 50px;
         background-color: transparent;
-        border: 2px solid black;
+        border: 0.1vw solid black;
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
+        margin: auto;
     }
     .facilitiesbtn button:hover{
         background: black;
@@ -1973,7 +2061,9 @@ footer{
         justify-content: center;
         flex-direction: column;
     }
-    
+    .section4{
+        margin-top: 10rem;
+    }
     .section4 h2{
         font-size: 22px;
     }
@@ -2019,7 +2109,7 @@ footer{
         width: 100px;
         height: 50px;
         background-color: transparent;
-        border: 2px solid black;
+        border: 0.1vw solid black;
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
         margin: auto;
@@ -2033,7 +2123,7 @@ footer{
     }
     .rectangle2{
         height: 45px;
-        width: 19%;
+        width: 0%;
         border: 2px solid black;
         font-family: 'Poppins', sans-serif;
         font-size: 1.3rem;
@@ -2042,8 +2132,8 @@ footer{
         display: none;
     }
     .o-restaurant2{
-        background: #000;
-        color: #ffffff;
+        background: rgba(0, 0, 0, 0);
+        color: #000000;
     }
     .introrooms{
         margin-top: 0rem;
@@ -2074,6 +2164,7 @@ footer{
         margin: auto;
         font-size: 14px;
         line-height: 1.5rem;
+        margin-top: 3vw;
     }
     .offeer button{
         margin: 2rem auto;
@@ -2508,7 +2599,20 @@ footer{
     margin: 0;
     width: 95%;
   }
+  .tabs1 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 62vw;
+  }
   .tabs li {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .tabs1 li {
     width: 100%;
     padding: 10px;
     cursor: pointer;
@@ -2518,6 +2622,11 @@ footer{
   .tabs li .rectangle:hover {
     background: #000;
         color: #E79434;
+  }
+  .tabs1 li .rectangle2.active,
+  .tabs1 li .rectangle2:hover {
+    background: #000;
+        color: #ffffff;
   }
   .content {
     width: 100%;
@@ -2532,8 +2641,26 @@ footer{
   .content > div:not(:first-child) {
     display: none;
   }
+  .content1 {
+    width: 100%;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: fit-content;
+  }
+  .content1 > div {
+    padding: 20px;
+  }
+  .content1 > div:not(:first-child) {
+    display: none;
+  }
   .section3prime{
       display: flex;
       flex-direction: column;
       align-items: center;
   }
+  .section4prime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
